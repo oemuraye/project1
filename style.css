@@ -446,7 +446,7 @@ footer .copywrite {
         font-weight: 400;
     }
     .design {
-        right: 0;
+        left: 0;
         bottom: 0;
     }
 }
