@@ -147,6 +147,7 @@ header .motto.flex {
 
 .diff_section {
     position: relative;
+    z-index: 2;
 }
 .diff_section .diff-left h2 {
     font-family: 'Poppins', sans-serif;
@@ -154,6 +155,9 @@ header .motto.flex {
     font-weight: 275;
     line-height: 66px;
     padding: 2rem 5rem;
+}
+.diff_section .diff-left .grid-even_2-right {
+    background-color: var(--basic-white);
 }
 .diff_section .diff-left .grid-even_2-left {
     background-color: var(--dark-white);
@@ -178,11 +182,13 @@ header .motto.flex {
     font-style: normal;
     font-weight: 300;
 }
+.vector-design {
+    position: relative;
+}
 .design {
     position: absolute;
     bottom: 40px;
-    /* right: 357px; */
-    left: 66.1%;
+    left: -47px;
 }
 .more_section.grid-odd_3 div {
     /* margin: 0 auto; */
@@ -295,7 +301,7 @@ header .motto.flex {
 }
 .offres_section .section-info h3 {
     color: var(--basic-color) !important;
-    margin-bottom: 10px;
+    margin-bottom: 2rem;
 }
 .offres_section .section-details {
     position: relative;
