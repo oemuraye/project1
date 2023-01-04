@@ -44,15 +44,16 @@ ul {
 /* header section */
 
 header, main {
-    max-width: 1440px;
-    margin: auto;
-    padding: 10px;
+    /* max-width: 1440px; */
+    /* margin: auto; */
+    padding: 5px;
 }
 
 header.flex {
     gap: 3rem;
     padding: 1.5rem 0;
     max-width: 1300px;
+    justify-content: space-around;
     padding: 20px;
     /* padding-left: 13rem; */
     /* margin: auto; */
