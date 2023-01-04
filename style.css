@@ -200,6 +200,7 @@ header .motto.flex {
     background-image: url(./images/Rectangle\ 629.png);
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: -10px;
     /* width: 100%; */
 }
 .more_section .grid-odd_3-middle h3,
