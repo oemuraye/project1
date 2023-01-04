@@ -353,7 +353,7 @@ footer {
     padding: 20px 6rem;
 }
 .footer-content img {
-    margin-left: -5px;
+    margin-left: -7px;
 }
 footer ul,
 footer .social-media {
@@ -480,7 +480,7 @@ footer .copywrite {
     }
     .footer-content img {
         order: 1;
-        margin-left: -5px;
+        margin-left: -18px;
     }
     .footer-content ul {
         order: 3;
