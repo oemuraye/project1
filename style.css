@@ -294,8 +294,8 @@ header .motto.flex {
 
 
 .offres_section {
-    max-width: 950px;
-    margin: auto;
+    /* max-width: 1080px; */
+    /* margin: auto; */
     margin-top: 3rem;
 }
 .offres_section .section-info {
@@ -307,8 +307,8 @@ header .motto.flex {
 }
 .offres_section .section-details {
     position: relative;
-    max-width: 1200px;
-    margin: auto;
+    /* max-width: 1000px; */
+    /* margin: auto; */
 }
 .offres_section .section-details div {
     padding: 0 2rem;
