@@ -82,6 +82,7 @@ header .motto.flex {
     font-style: normal;
     font-weight: 300;
     display: none;
+    transition: all ease 2s ;
 }
 .mobile-menu div {
     background-color: var(--basic-white);
@@ -399,6 +400,7 @@ footer .copywrite {
     }
     header.flex {
         justify-content: space-between;
+        padding: .5rem 0;
     }
     
     .hero_section .hero-left {
