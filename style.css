@@ -352,6 +352,9 @@ footer {
     align-items: center;
     padding: 20px 6rem;
 }
+.footer-content img {
+    margin-left: -5px;
+}
 footer ul,
 footer .social-media {
     background-color: var(--basic-dark);
