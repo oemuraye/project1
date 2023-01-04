@@ -400,7 +400,7 @@ footer .copywrite {
     }
     header.flex {
         justify-content: space-between;
-        padding: .5rem 5px;
+        padding: .5rem 10px 0 0px;
     }
     
     .hero_section .hero-left {
