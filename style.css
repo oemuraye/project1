@@ -400,7 +400,7 @@ footer .copywrite {
     }
     header.flex {
         justify-content: space-between;
-        padding: .5rem 0;
+        padding: .5rem 5px;
     }
     
     .hero_section .hero-left {
@@ -446,7 +446,7 @@ footer .copywrite {
         font-weight: 400;
     }
     .design {
-        left: 0;
+        right: 0;
         bottom: 0;
     }
 }
