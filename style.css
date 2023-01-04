@@ -302,7 +302,7 @@ header .motto.flex {
 }
 .offres_section .section-info h3 {
     color: var(--basic-color) !important;
-    margin-bottom: 2rem;
+    margin-bottom: .8rem;
 }
 .offres_section .section-details {
     position: relative;
