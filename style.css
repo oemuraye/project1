@@ -46,7 +46,7 @@ ul {
 header, main {
     /* max-width: 1440px; */
     /* margin: auto; */
-    padding: 5px;
+    /* padding: 5px; */
 }
 
 header.flex {
@@ -295,6 +295,8 @@ header .motto.flex {
 
 .offres_section {
     /* max-width: 1080px; */
+    padding: 20px;
+    padding-left: 5rem;
     /* margin: auto; */
     margin-top: 3rem;
 }
@@ -404,10 +406,31 @@ footer .copywrite {
         padding: .5rem 10px 0 0px;
     }
     
+    .hero_section {
+        /* background-image: none; */
+        /* background-image: url(./images/Rectangle\ 615.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: var(--basic-white); */
+    }
     .hero_section .hero-left {
         /* padding: 1rem 1rem; */
-        padding: 10px 20px;
+        position: relative;
+        /* padding: 10px 20px; */
+        /* height: 250px; */
     }
+    .hero_section .hero-left div {
+        font-size: 17px;
+    }
+    .hero_section .hero-left h3 {
+        padding: 50px 10px;
+    }
+    /* .hero_section .hero-left img {
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        
+    } */
     .hero_section .hero-right {
         padding: 4rem 1rem;
     }
@@ -437,6 +460,9 @@ footer .copywrite {
     .offres_section .section-details div,
     .expertises_section .cards {
         padding: 0 1rem;
+    }
+    .offres_section {
+        padding-left: 1rem;
     }
 
     .offres_section .section-info h3,
@@ -470,7 +496,7 @@ footer .copywrite {
         background-size: 100% 35%;
     }
     header, main, footer {
-        padding: 5px;
+        /* padding: 5px; */
     }
     .offres_section .section-details div {
         border: none;
