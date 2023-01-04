@@ -43,7 +43,7 @@ ul {
 
 /* header section */
 
-header, main, footer {
+header, main {
     max-width: 1440px;
     margin: auto;
     padding: 10px;
@@ -92,7 +92,7 @@ header .motto.flex {
     flex-direction: column;
     max-width: 200px;
     display: flex;
-    gap: 15px;
+    gap: 20px;
     padding: 10px;
     margin: auto;
     /* text-align: center; */
@@ -116,7 +116,7 @@ header .motto.flex {
     align-items: center;
 }
 .hero_section .hero-left {
-    padding-left: 7rem;
+    padding-left: 5rem;
     max-width: 350px;
     /* margin: auto; */
     letter-spacing: 2px;
@@ -153,11 +153,11 @@ header .motto.flex {
     font-size: 60px;
     font-weight: 275;
     line-height: 66px;
-    padding: 2rem 7rem;
+    padding: 2rem 5rem;
 }
 .diff_section .diff-left .grid-even_2-left {
     background-color: var(--dark-white);
-    padding-left: 7rem !important;
+    padding-left: 5rem !important;
 }
 .diff_section .diff-left .grid-even_2 div {
     padding: 4rem;
@@ -185,17 +185,22 @@ header .motto.flex {
     left: 66.1%;
 }
 .more_section.grid-odd_3 div {
-    padding: 4rem;
     /* margin: 0 auto; */
     display: flex;
     flex-direction: column;
     gap: 20px;
     color: var(--basic-white);
 }
+.more_section .grid-odd_3-middle,
+.more_section .grid-odd_3-right {
+    padding: 4rem;
+
+}
 .more_section .grid-odd_3-left {
     background-image: url(./images/Rectangle\ 629.png);
     background-size: cover;
     background-repeat: no-repeat;
+    /* width: 100%; */
 }
 .more_section .grid-odd_3-middle h3,
 .more_section .grid-odd_3-right h3 {
@@ -231,7 +236,7 @@ header .motto.flex {
     gap: 15px;
     max-width: 1000px;
     padding: 4rem;
-    padding-left: 7rem;
+    padding-left: 5rem;
 }
 
 .offres_section .section-info h3, 
@@ -280,16 +285,16 @@ header .motto.flex {
 
 
 .offres_section {
-    max-width: 1020px;
+    max-width: 1200px;
     margin: auto;
     margin-top: 2rem;
 }
 .offres_section .section-info {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .offres_section .section-info h3 {
     color: var(--basic-color) !important;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 .offres_section .section-details {
     position: relative;
@@ -314,7 +319,7 @@ header .motto.flex {
     font-size: 22px;
     
     color: var(--basic-color);
-    margin-bottom: 10px;
+    margin-bottom: 16px;
 }
 .offres_section .section-details div p {
     font-family: 'Poppins', sans-serif;
@@ -328,6 +333,9 @@ header .motto.flex {
 footer {
     background-color: var(--basic-dark);
     color: var(--basic-white);
+    max-width: 1500px;
+    margin: auto;
+    padding: 10px;
 }
 .footer-content {
     max-width: 1020px;
@@ -356,8 +364,9 @@ footer .copywrite {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 14px;
+    font-size: .8rem;
     padding: .5rem;
+    max-width: 1200px;
 
     display: flex;
     justify-content: center;
@@ -403,7 +412,8 @@ footer .copywrite {
     .diff_section .diff-left .grid-even_2 div {
         padding: 1rem;
     }
-    .more_section.grid-odd_3 div {
+    .more_section .grid-odd_3-middle,
+    .more_section .grid-odd_3-right {
         padding: 1rem;
     }
 
