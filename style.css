@@ -52,11 +52,11 @@ header, main {
 header.flex {
     gap: 3rem;
     padding: 1.5rem 0;
-    max-width: 1200px;
+    max-width: 1300px;
+    padding: 20px;
     /* padding-left: 13rem; */
     /* margin: auto; */
-    justify-content: center;
-    padding: 20px;
+    /* justify-content: center; */
 }
 header .motto.flex {
     font-family: 'Poppins', sans-serif;
