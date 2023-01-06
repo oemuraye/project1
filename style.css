@@ -172,6 +172,7 @@ header .motto.flex {
 }
 .diff_section .diff-left .grid-even_2-right {
     background-color: var(--basic-white);
+    z-index: 1;
 }
 .diff_section .diff-left .grid-even_2-left {
     background-color: var(--dark-white);
@@ -203,6 +204,7 @@ header .motto.flex {
     position: absolute;
     bottom: 40px;
     left: -48px;
+    z-index: 2;
 }
 .more_section.grid-odd_3 div {
     display: flex;
@@ -397,7 +399,7 @@ footer .copywrite {
 
 /* Responsiveness */
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
     .diff_section {
         height: 545px;
     }
