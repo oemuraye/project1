@@ -160,7 +160,6 @@ header .motto.flex {
 .diff_section {
     position: relative;
     z-index: 2;
-    /* height: 400px; */
 }
 .diff_section .diff-left h2 {
     font-family: 'Poppins', sans-serif;
@@ -485,7 +484,7 @@ footer .copywrite {
         background-image: url(./images/hero-mobile.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 400px;
+        height: 450px;
     }
     .hero_section .hero-left div {
         text-align: center;
