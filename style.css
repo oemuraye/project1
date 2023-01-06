@@ -172,7 +172,7 @@ header .motto.flex {
 }
 .diff_section .diff-left .grid-even_2-right {
     background-color: var(--basic-white);
-    z-index: 1;
+    /* z-index: 2; */
 }
 .diff_section .diff-left .grid-even_2-left {
     background-color: var(--dark-white);
@@ -208,7 +208,7 @@ header .motto.flex {
     position: absolute;
     bottom: 40px;
     left: -48px;
-    z-index: 2;
+    /* z-index: 1; */
 }
 .more_section.grid-odd_3 div {
     display: flex;
@@ -224,7 +224,7 @@ header .motto.flex {
     background-image: url(./images/Rectangle\ 629.png);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: -10px;
+    margin-top: -5px;
 }
 .more_section .grid-odd_3-middle h3,
 .more_section .grid-odd_3-right h3 {
@@ -407,13 +407,12 @@ footer .copywrite {
         height: 545px;
     }
 }
-@media screen and (max-width: 1200px) {
-    /* .diff_section {
-        height: auto;
+@media screen and (max-width: 1300px) {
+    .more_section .grid-odd_3-middle,
+    .more_section .grid-odd_3-right {
+        padding: 6rem 3rem 3rem 3rem;
     }
-    .diff_section .vector-design {
-        height: 387px;
-    } */
+
 }
 @media screen and (max-width: 1024px) {
     .hero_section {
@@ -444,11 +443,16 @@ footer .copywrite {
     .diff_section .diff-left .grid-even_2-left {
         padding-left: 2rem !important;
     }
+    .diff_section .diff-left .grid-even_2-right {
+        background-color: #ffffff00;
+        z-index: 2;
+    }
     .design {
         Width: 78.75px;
         Height: 80px;
         left: -40px;
         bottom: 1px;
+        z-index: 1;
     }
 }
 @media screen and (max-width: 950px) {
