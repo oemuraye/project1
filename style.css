@@ -401,14 +401,34 @@ footer .copywrite {
     .hero_section {
         background-size: 89.4% 100%;
     }
+    .hero_section .hero-left, 
+    .hero_section .hero-left span {
+        padding-left: 1rem !important;
+    }
+    .grid-odd {
+        grid-template-columns: 2fr 1.3fr;
+    }
+    .grid-odd_3 {
+        grid-template-columns: 1fr 1fr 1.3fr;
+    }
+    .diff_section .diff-left .grid-even_2 div {
+        padding: 1rem 1rem;
+    }
+    .diff_section .diff-left h2 {
+        padding: 1rem 1.1rem;
+        font-size: 2.5rem !important;
+    } 
+    .diff_section .diff-left .grid-even_2-left {
+        padding-left: 2rem !important;
+    }
 }
 @media screen and (max-width: 950px) {
     .hero_section {
         background-size: 88.4% 100%;
     }
-    .hero_section .hero-left {
+    .hero_section .hero-left span {
         padding-left: 3rem;
-        font-size: 3.2rem;
+        font-size: 3rem;
     }
     .hero_section .hero-right {
         height: 300px;
