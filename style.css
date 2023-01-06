@@ -403,7 +403,7 @@ footer .copywrite {
     }
     .hero_section .hero-left, 
     .hero_section .hero-left span {
-        padding-left: 1rem !important;
+        padding-left: .2rem !important;
     }
     .grid-odd {
         grid-template-columns: 2fr 1.3fr;
@@ -476,8 +476,7 @@ footer .copywrite {
 
     
     .expertises_section .section-info,
-    .diff_section .diff-left .grid-even_2-left,
-    .hero_section .hero-left span {
+    .diff_section .diff-left .grid-even_2-left {
         padding-left: 1rem !important;
     }
     .diff_section .diff-left h2 {
