@@ -397,6 +397,11 @@ footer .copywrite {
 
 /* Responsiveness */
 
+@media screen and (min-width: 1440px) {
+    .diff_section {
+        height: 545px;
+    }
+}
 @media screen and (max-width: 1024px) {
     .hero_section {
         background-size: 89.4% 100%;
@@ -423,9 +428,9 @@ footer .copywrite {
     }
     .design {
         Width: 78.75px;
-        Height: 89px;
-        left: -40.4px;
-        bottom: 15px;
+        Height: 80px;
+        left: -40px;
+        bottom: 1px;
     }
 }
 @media screen and (max-width: 950px) {
