@@ -1,3 +1,4 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
 
 
@@ -25,7 +26,7 @@ ul {
 }
 .grid-odd {
     display: grid;
-    grid-template-columns: 2.3fr 1fr;
+    grid-template-columns: 2fr 1.2fr;
 }
 .grid-even_2 {
     display: grid;
@@ -37,10 +38,15 @@ ul {
 }
 .grid-odd_3 {
     display: grid;
-    grid-template-columns: 1.13fr 1.13fr .98fr;
+    grid-template-columns: 1fr 1fr 1.2fr;
 }
 
 /* header section */
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
 header.flex {
     gap: 3rem;
@@ -48,6 +54,7 @@ header.flex {
     max-width: 1300px;
     justify-content: space-around;
     padding: 20px;
+    width: auto;
 }
 header .motto.flex {
     font-family: 'Poppins', sans-serif;
@@ -55,13 +62,21 @@ header .motto.flex {
     font-weight: 400;
     gap: 1rem;
 }
+.desktop-view {
+    display: block;
+}
+.mobile-view {
+    display: none;
+}
 
-.hamburger-icon {
+/* Mobile menu */
+
+/* .hamburger-icon {
     cursor: pointer;
     font-size: 1.5rem;
     display: none;
-}
-.mobile-menu {
+} */
+/* .mobile-menu {
     background-color: #00000087;
     position: fixed;
     top: 0;
@@ -93,13 +108,13 @@ header .motto.flex {
     color: var(--basic-white);
     padding: 7px 30px;
     border-radius: 1px;
-}
+} */
 
 
 /* main section */
 .hero_section {
     background-image: url(./images/Rectangle\ 615.png);
-    background-size: cover;
+    background-size: 90% 100%;
     background-repeat: no-repeat;
     color: var(--basic-white);
 }
@@ -107,20 +122,27 @@ header .motto.flex {
     align-items: center;
 }
 .hero_section .hero-left {
-    padding-left: 5rem;
-    max-width: 350px;
-    letter-spacing: 2px;
+    padding-left: 6rem;
+    max-width: 500px;
     font-family: 'Poppins', sans-serif;
-    font-size: 2rem;
     font-weight: 275;
+    font-size: 3.5rem;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    height: 300px;
+    
 }
 .hero_section .hero-right {
     background-color: var(--basic-color);
-    padding: 4rem 3rem;
+    padding: 5rem 3rem 0rem 3rem;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
-.hero_section .hero-right h3 {
-    margin-bottom: 1rem;
-    font-size: 1.6rem;
+.hero_section .hero-right span {
+    font-size: 1.9rem;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -138,6 +160,7 @@ header .motto.flex {
 .diff_section {
     position: relative;
     z-index: 2;
+    /* height: 400px; */
 }
 .diff_section .diff-left h2 {
     font-family: 'Poppins', sans-serif;
@@ -154,7 +177,7 @@ header .motto.flex {
     padding-left: 5rem !important;
 }
 .diff_section .diff-left .grid-even_2 div {
-    padding: 4rem;
+    padding: 6rem 4rem;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -374,31 +397,28 @@ footer .copywrite {
 /* Responsiveness */
 
 @media screen and (max-width: 768px) {
+    
+    
     .motto.flex {
-        display: none;
+        flex-direction: column;
+        text-align: center;
+        font-size: 12px;
+        line-height: 18px;
+        gap: 0 !important;
     }
-    .hamburger-icon {
-        display: block;
-    }
-    .show-menu {
-        display: block;
+    .motto.flex img {
+        height: 35px;
+        width: 35px;
     }
     header.flex {
         justify-content: space-between;
-        padding: .5rem 10px 0 0px;
+        padding: 5px;
+        align-items: center;
+        gap: .5rem;
     }
     
-    .hero_section .hero-left {
-        position: relative;
-    }
-    .hero_section .hero-left div {
-        font-size: 17px;
-    }
-    .hero_section .hero-left h3 {
-        padding: 50px 10px;
-    }
     .hero_section .hero-right {
-        padding: 4rem 1rem;
+        padding: 2rem 1.2rem;
     }
 
     
@@ -446,6 +466,42 @@ footer .copywrite {
 
 
 @media screen and (max-width: 600px) {
+    .desktop-view {
+        display: none;
+    }
+    .mobile-view {
+        display: block;
+        font-size: 10px;
+    }
+    header .brand_logo img {
+        height: 58px;
+        width: 120px;
+    }
+    .hero_section {
+        background-image: none;
+    }
+    .hero_section .hero-left {
+        position: relative;
+        background-image: url(./images/hero-mobile.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 400px;
+    }
+    .hero_section .hero-left div {
+        text-align: center;
+        margin-bottom: auto;
+    }
+    .hero_section .hero-left div span {
+        font-weight: 275;
+        font-size: 35px;
+    }
+    .hero_section .hero-right {
+        height: auto;
+    }
+    .hero_section .hero-right span {
+        font-size: 24px;
+    }
+
     .grid-odd,
     .grid-even_2,
     .grid-even_3,
@@ -460,9 +516,6 @@ footer .copywrite {
 
     .hero_section {
         background-size: 100% 35%;
-    }
-    header, main, footer {
-        /* padding: 5px; */
     }
     .offres_section .section-details div {
         border: none;
