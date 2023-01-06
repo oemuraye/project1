@@ -120,7 +120,7 @@ header .motto.flex {
 .hero_section .grid-odd {
     align-items: center;
 }
-.hero_section .hero-left {
+.hero_section .hero-left span {
     padding-left: 6rem;
     max-width: 500px;
     font-family: 'Poppins', sans-serif;
@@ -451,7 +451,7 @@ footer .copywrite {
     
     .expertises_section .section-info,
     .diff_section .diff-left .grid-even_2-left,
-    .hero_section .hero-left {
+    .hero_section .hero-left span {
         padding-left: 1rem !important;
     }
     .diff_section .diff-left h2 {
@@ -508,20 +508,11 @@ footer .copywrite {
     }
     .hero_section .hero-left {
         position: relative;
-        /* background-image: url(./images/Rectangle\ 615.png);
+        background-image: url(./images/hero-mobile.png);
         background-size: 100% 100%;
-        background-repeat: no-repeat; */
+        background-repeat: no-repeat;
         height: 600px;
         line-height: 40px;
-    }
-    .hero_section .hero-left img {
-        display: block;
-        /* object-fit: cover; */
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: -1;
     }
     .hero_section .hero-left div {
         text-align: center;
@@ -529,7 +520,9 @@ footer .copywrite {
     }
     .hero_section .hero-left div span {
         font-weight: 275;
-        font-size: 35px;
+        font-size: 40px;
+        line-height: 1.3;
+        margin-top: 7px;
     }
     .hero_section .hero-right {
         height: auto;
