@@ -129,8 +129,11 @@ header .motto.flex {
     /* line-height: 40px; */
     display: flex;
     align-items: center;
-    height: 380px;
+    /* height: 380px; */
     
+}
+.hero_section .hero-left img {
+    display: none;
 }
 .hero_section .hero-right {
     background-color: var(--basic-color);
@@ -199,7 +202,7 @@ header .motto.flex {
 .design {
     position: absolute;
     bottom: 40px;
-    left: -47px;
+    left: -48px;
 }
 .more_section.grid-odd_3 div {
     display: flex;
@@ -394,9 +397,35 @@ footer .copywrite {
 
 /* Responsiveness */
 
+@media screen and (max-width: 1024px) {
+    .hero_section {
+        background-size: 89.4% 100%;
+    }
+}
+@media screen and (max-width: 950px) {
+    .hero_section {
+        background-size: 88.4% 100%;
+    }
+    .hero_section .hero-left {
+        padding-left: 3rem;
+        font-size: 3.2rem;
+    }
+    .hero_section .hero-right {
+        height: 300px;
+        padding: 2rem 1rem;
+    }
+    .hero_section .hero-right span {
+        font-size: 1.6rem;   
+    }
+
+}
 @media screen and (max-width: 768px) {
-    
-    
+    .hero_section {
+        background-size: 90% 100%;
+    }
+    .hero_section .hero-left {
+        font-size: 3rem;
+    }
     .motto.flex {
         flex-direction: column;
         text-align: center;
@@ -416,14 +445,13 @@ footer .copywrite {
     }
     
     .hero_section .hero-right {
-        padding: 2rem 1.2rem;
+        padding: 1.5rem 1rem;
     }
 
     
     .expertises_section .section-info,
     .diff_section .diff-left .grid-even_2-left,
-    .hero_section .hero-left,
-    .diff_section .diff-left h2 {
+    .hero_section .hero-left {
         padding-left: 1rem !important;
     }
     .diff_section .diff-left h2 {
@@ -480,11 +508,20 @@ footer .copywrite {
     }
     .hero_section .hero-left {
         position: relative;
-        background-image: url(./images/hero-mobile.png);
+        /* background-image: url(./images/Rectangle\ 615.png);
         background-size: 100% 100%;
-        background-repeat: no-repeat;
-        height: 500px;
+        background-repeat: no-repeat; */
+        height: 600px;
         line-height: 40px;
+    }
+    .hero_section .hero-left img {
+        display: block;
+        /* object-fit: cover; */
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: -1;
     }
     .hero_section .hero-left div {
         text-align: center;
