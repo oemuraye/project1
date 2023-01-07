@@ -416,15 +416,18 @@ footer .copywrite {
 }
 @media screen and (max-width: 1024px) {
     .hero_section {
-        background-size: 89.4% 100%;
+        background-size: cover;
     }
     .more_section .grid-odd_3-middle,
     .more_section .grid-odd_3-right {
         padding: 2rem;
     }
-    .hero_section .hero-left, 
-    .hero_section .hero-left span {
+    .hero_section .hero-left {
         padding-left: .2rem !important;
+    }
+    .hero_section .hero-left span {
+        padding-right: 2rem;
+
     }
     .grid-odd {
         grid-template-columns: 2fr 1.3fr;
@@ -457,10 +460,10 @@ footer .copywrite {
 }
 @media screen and (max-width: 950px) {
     .hero_section {
-        background-size: 88.4% 100%;
+        background-size: cover;
     }
     .hero_section .hero-left span {
-        padding-left: 3rem;
+        padding-left: 2rem ;
         font-size: 3rem;
     }
     .hero_section .hero-right {
@@ -474,7 +477,7 @@ footer .copywrite {
 }
 @media screen and (max-width: 768px) {
     .hero_section {
-        background-size: 90% 100%;
+        background-size: cover;
     }
     .hero_section .hero-left {
         font-size: 3rem;
