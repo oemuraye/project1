@@ -5,6 +5,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 :root {
     --basic-color: #FF6347;
@@ -13,7 +14,7 @@
     --dark-white: #F5F5F5;
 }
 a {
-    color: var(--basic-white);
+    color: var(--basic-whiter);
     text-decoration: none;
 }
 ul {
@@ -113,7 +114,8 @@ header .motto.flex {
 /* main section */
 .hero_section {
     background-image: url(./images/Rectangle\ 615.png);
-    background-size: 90% 100%;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     color: var(--basic-white);
 }
