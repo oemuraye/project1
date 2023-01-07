@@ -13,7 +13,7 @@
     --dark-white: #F5F5F5;
 }
 a {
-    color: var(--basic-whiter);
+    color: var(--basic-white);
     text-decoration: none;
 }
 ul {
