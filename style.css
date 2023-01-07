@@ -42,7 +42,6 @@ ul {
 }
 
 /* header section */
-
 body {
     max-width: 1440px;
     margin: 0 auto;
@@ -204,13 +203,11 @@ header .motto.flex {
     background-image: url(./images/Rectangle\ 627.png);
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 .design {
     position: absolute;
     bottom: 40px;
     left: -48px;
-    /* z-index: 1; */
 }
 .more_section.grid-odd_3 div {
     display: flex;
